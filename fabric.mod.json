@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "ultimate_flashy_vpn",
+  "version": "${version}",
+  "name": "Ultimate Flashy VPN",
+  "description": "A client-side Minecraft proxy settings and connection-test prototype.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.ultimateflashy.vpn.UltimateFlashyVPN"]
+  },
+  "mixins": ["ultimate-flashy-vpn.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
